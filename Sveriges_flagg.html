@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sveriges flagg</title>
+  <style>
+    #flagg {
+      display: grid;
+      width: 75vw;
+      height: 47vw;
+      grid-template-columns: 5fr 2fr 9fr;
+      grid-template-rows: 4fr 2fr 4fr;
+      margin: 0 auto;
+      border: solid 2px black;
+      background-color: #006AA7;
+    }
+
+    #gul1 {
+      background-color: #FECC00;
+      grid-row: 1/4;
+      grid-column: 2/3;
+    }
+
+    #gul2 {
+      background-color: #FECC00;
+      grid-row: 2/3;
+      grid-column: 1/4;
+    }
+  </style>
+</head>
+<body>
+<div id="flagg">
+  <div id="gul1"></div>
+  <div id="gul2"></div>
+</div>
+</body>
+</html>
